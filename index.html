@@ -4,9 +4,15 @@
         <link rel="stylesheet" href="css/styles.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Welcome to KokoaTalk</title>
+        <title>코코아톡</title>
     </head>
     <body>
+        <div id="no-mobile">
+            <div class="no-mobile__container">
+                <i class="fa-solid fa-circle-exclamation fa-2xl"></i>
+                <span>핸드폰으로 접속해주세요.</span>
+            </div>
+        </div>
         <div class="status-bar">
             <div class="status-bar__column">
                 <span>No Service</span>
@@ -23,17 +29,14 @@
         </div>
         <header class="welcome-header">
             <h1 class="welcome-header__title">Welcome to KokoaTalk</h1>
-            <p class="welcome-header__text">If you have a Kokoa Account, Log in with your email or phone number.</p>
+            <p class="welcome-header__text">코코아톡 계정이 있으시다면, 이메일 혹은 핸드폰 번호로 로그인 해주세요.</p>
         </header>
         <form action="friends.html" method="get" id="login-form">
             <input type="text" placeholder="Email or Phone Number"/>
             <input type="password" placeholder="Password"/>
-            <input type="submit" value="Login"/>
-            <a href="#">Forgot Password?</a>
+            <input type="submit" value="로그인"/>
+            <a href="#">로그인에 문제가 있나요?</a>
         </form>
-        <div id="no-mobile">
-            <span>Your screen is too big</span>
-        </div>
         <script src="https://kit.fontawesome.com/7ed4aaa020.js" crossorigin="anonymous"></script>
     </body>
 </html>

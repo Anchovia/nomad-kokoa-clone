@@ -1,14 +1,40 @@
+@keyframes fade-in{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
 #no-mobile{
     position: fixed;
     z-index: 99;
     height: 100vh;
-    background-color: var(--yellow);
+    background-color: var(--gray-font-color);
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 32px;
     top: 0;
+    animation: fade-in 0.2s ease-in-out;
+}
+.no-mobile__container{
+    display: flex;
+    flex-direction: column;
+    padding: 200px 100px;
+    font-size: 28px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    border-radius: 10%;
+    font-weight: 600;
+}
+.no-mobile__container i{
+    margin-bottom: 100px;
+    font-size: 100px;
+    color: tomato;
 }
 
 @media screen and (max-width:645px) {

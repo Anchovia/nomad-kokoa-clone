@@ -4,9 +4,15 @@
         <link rel="stylesheet" href="css/styles.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Find - KokoaTalk</title>
+        <title>탐색 - 코코아톡</title>
     </head>
     <body>
+        <div id="no-mobile">
+            <div class="no-mobile__container">
+                <i class="fa-solid fa-circle-exclamation fa-2xl"></i>
+                <span>핸드폰으로 접속해주세요.</span>
+            </div>
+        </div>
         <div class="status-bar">
             <div class="status-bar__column">
                 <span>No Service</span>
@@ -22,7 +28,7 @@
             </div>
         </div>
         <header class="screen-header">
-            <h1 class="screen-header__title">Find</h1>
+            <h1 class="screen-header__title">탐색</h1>
             <div class="screen-header__icon">
                 <span><i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
                 <span>
@@ -37,30 +43,30 @@
             <div class="icon-row">
                 <div class="icon-row__icon">
                     <i class="fa-solid fa-qrcode"></i>
-                    <span>QR Code</span>
+                    <span>QR 코드</span>
                 </div>
                 <div class="icon-row__icon">
                     <i class="fa-regular fa-address-book"></i>
-                    <span>Add by Contacts</span>
+                    <span>연락처 추가</span>
                 </div>
                 <div class="icon-row__icon">
                     <i class="fa-solid fa-fingerprint"></i>
-                    <span>Add by ID</span>
+                    <span>지문 인식</span>
                 </div>
                 <div class="icon-row__icon">
                     <i class="fa-regular fa-envelope"></i>
-                    <span>Invite</span>
+                    <span>메일</span>
                 </div>
             </div>
             <div class="recommended-friends">
-                <h6 class="recommended-friends__title">Recommended Friends</h6>
-                <span>You have no recommended friends.</span>
+                <h6 class="recommended-friends__title">추천 친구</h6>
+                <span>현재 추천할 친구가 존재하지 않습니다.</span>
             </div>
             <div class="open-chat">
                 <div class="open-chat__header">
-                    <h4>Open Chat</h4>
+                    <h4>오픈 채팅</h4>
                     <span>
-                        Go to Openchat Home
+                        오픈채팅 홈으로 이동
                         <i class="fa-solid fa-chevron-right fa-xs"></i>
                     </span>
                 </div>
@@ -70,9 +76,9 @@
                         <h6 class="open-post__hashtags">#bts#army#friends</h6>
                         <div class="open-post__members">
                             <div class="open-post__member-img"></div>
-                            <span class="open-post__member-count">802 members</span>
+                            <span class="open-post__member-count">802 맴버</span>
                             <div class="divider"></div>
-                            <span class="open-post__member-status">Active</span>
+                            <span class="open-post__member-status">활동중</span>
                         </div> 
                     </div>
                     <div class="open-post__column">
@@ -81,6 +87,27 @@
                             <div class="open-post__heart-count">
                                 <i class="fa-solid fa-heart fa-xs" style="color: #ffffff;"></i>
                                 <span>326</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="open-post">
+                    <div class="open-post__column">
+                        <h5 class="open-post__title">#NASDAQ</h5>
+                        <h6 class="open-post__hashtags">#usa#stock#sky</h6>
+                        <div class="open-post__members">
+                            <div class="open-post__member-img"></div>
+                            <span class="open-post__member-count">129 맴버</span>
+                            <div class="divider"></div>
+                            <span class="open-post__member-status">활동중</span>
+                        </div> 
+                    </div>
+                    <div class="open-post__column">
+                        <div class="open-post__photo">
+                            <div class="open-post__photo-method"></div>
+                            <div class="open-post__heart-count">
+                                <i class="fa-solid fa-heart fa-xs" style="color: #ffffff;"></i>
+                                <span>16</span>
                             </div>
                         </div>
                     </div>
@@ -109,9 +136,6 @@
                 </li>
             </ul>
         </nav>
-        <div id="no-mobile">
-            <span>Your screen is too big</span>
-        </div>
         <script src="https://kit.fontawesome.com/7ed4aaa020.js" crossorigin="anonymous"></script>
     </body>
 </html>
