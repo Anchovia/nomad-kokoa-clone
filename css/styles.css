@@ -18,6 +18,7 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chatroom.css";
+@import "screens/chats.css";
 
 body{
     margin-top: 15px;

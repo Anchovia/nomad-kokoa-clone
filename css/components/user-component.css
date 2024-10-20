@@ -13,6 +13,8 @@
     border-radius: 30px;
     margin-right: 20px;
 }
+.user-component__text{
+}
 .user-component__title{
     font-weight: 600;
     font-size: 22px;
